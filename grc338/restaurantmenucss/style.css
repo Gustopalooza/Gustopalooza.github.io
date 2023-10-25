@@ -6,60 +6,50 @@ img {
 	width: 100%;
 	display: block;
 }
-
 body {
 	background-color: rgb(247, 245, 245); /* Not totally white. */
 	color: rgb(6, 5, 5);  /* Not totally black. */
 	line-height: 145%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
-
 h1 {
 	background-color: rgb(151, 153, 160);
 	color: rgb(247, 245, 245); /* Same as body background. */
-	font-size: 23pt;
+	font-size: 1.9em;
 	padding: 1em 1em 1em; /* You want three values. */
 	font-weight: 700;
 	text-transform: uppercase;
 }
-
-
 h2 {
 	background-color: rgb(151, 153, 160);
 	color: rgb(247, 245, 245);
-	font-size: 17pt;
+	font-size: 1.45em;
 	padding: 0em 1.5em 0.5em;
 	font-family: serif;
 	font-weight: 700;
 }
-
 h3 {
 	margin: 3em 1em 1.5em; /*Three values again. You got the idea.*/
 	padding-top: 0.5em;
-	font-size: 16pt;
+	font-size: 1.4em;
 	color: rgb(168, 30, 30);
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: 0.15em solid rgb(168, 30, 30);
 }
-
 h4 {
 	font-weight: 700;
 }
-
 p.description {
 	font-style: italic;
 }
-
 p.price {
 	color: rgb(168, 30, 30);
 }
-
 ul {
-	margin: 1em 1em 1em 0em;
+	margin: 1em 1em 1em 0.5em;
 }
-
 li { 
 	margin: 0.8em 1em;
 	list-style-type: none;
